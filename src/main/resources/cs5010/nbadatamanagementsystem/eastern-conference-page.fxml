@@ -9,9 +9,9 @@
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs5010.nbadatamanagementsystem.EasternConferencePageController">
    <children>
       <Button fx:id="backToMainPage" layoutX="445.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#handleBackToMainPageClick" text="Back To Main Page" />
-      <TableView layoutX="62.0" layoutY="33.0" prefHeight="284.0" prefWidth="500.0">
+      <TableView fx:id="easternTable" layoutX="62.0" layoutY="33.0" prefHeight="284.0" prefWidth="500.0">
         <columns>
-          <TableColumn fx:id="teamColumn" prefWidth="75.0" text="Team" />
+          <TableColumn fx:id="teamNameColumn" prefWidth="150.0" text="Team Name" />
           <TableColumn fx:id="winColumn" prefWidth="75.0" text="Win" />
             <TableColumn fx:id="loseColumn" prefWidth="75.0" text="Lose" />
             <TableColumn fx:id="winLosePercentageColumn" prefWidth="75.0" text="W/L%" />
