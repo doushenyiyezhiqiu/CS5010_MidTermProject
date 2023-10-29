@@ -24,7 +24,8 @@ public class MainApplication extends Application {
     public static void main(String[] args) {
 
         CsvLoader.loadEasternTeams();
-        System.out.println(Teams.getEasternTeams().size());
+        CsvLoader.loadWesternTeams();
+
         launch();
     }
 }
