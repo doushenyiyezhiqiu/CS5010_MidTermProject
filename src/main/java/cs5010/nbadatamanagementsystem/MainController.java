@@ -13,6 +13,9 @@ public class MainController {
     private Button western;
 
     @FXML
+    private Button playerStatsButton;
+
+    @FXML
     private ImageView nbaImage;
 
     @FXML
@@ -29,6 +32,11 @@ public class MainController {
     private void initialize() {
         Image image = new Image(getClass().getResourceAsStream("Images/nbaImage.png"));
         nbaImage.setImage(image);
+    }
+
+    @FXML
+    private void handlePlayerStatsButtonClick() throws Exception {
+        OpenNewWindow.openNewWindowAndClosePreviousWindow(playerStatsButton, "player-stats-page.fxml");
     }
 }
 

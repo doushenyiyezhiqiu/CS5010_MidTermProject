@@ -10,7 +10,7 @@
    <children>
       <Button fx:id="eastern" layoutX="120.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#handleEasternClick" text="Eastern Conference" />
       <Button fx:id="western" layoutX="280.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#handleWesternClick" prefHeight="26.0" prefWidth="118.0" text="Western Conference" />
-      <Button layoutX="440.0" layoutY="350.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="118.0" text="Player Stats" />
+      <Button fx:id="playerStatsButton" layoutX="440.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#handlePlayerStatsButtonClick" prefHeight="26.0" prefWidth="118.0" text="Player Stats" />
       <Label layoutX="120.0" layoutY="25.0" text="Welcome to NBA Data Management System">
          <font>
             <Font size="20.0" />

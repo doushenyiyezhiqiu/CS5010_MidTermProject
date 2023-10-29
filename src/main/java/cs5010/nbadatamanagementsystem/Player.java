@@ -6,6 +6,7 @@ public class Player {
     private String position;
     private int age;
     private String team;
+    private int games;
     private double points;
     private double rebounds;
     private double assists;
@@ -16,11 +17,12 @@ public class Player {
     private double threePointPercentage;
     private double freeThrowPercentage;
 
-    public Player(String name, String position, int age, String team, double points, double rebounds, double assists, double steals, double blocks, double fieldGoalPercentage, double twoPointPercentage, double threePointPercentage, double freeThrowPercentage) {
+    public Player(String name, String position, int age, String team, int games, double points, double rebounds, double assists, double steals, double blocks, double fieldGoalPercentage, double twoPointPercentage, double threePointPercentage, double freeThrowPercentage) {
         this.name = name;
         this.position = position;
         this.age = age;
         this.team = team;
+        this.games = games;
         this.points = points;
         this.rebounds = rebounds;
         this.assists = assists;
@@ -134,5 +136,13 @@ public class Player {
 
     public void setFreeThrowPercentage(double freeThrowPercentage) {
         this.freeThrowPercentage = freeThrowPercentage;
+    }
+
+    public int getGames() {
+        return games;
+    }
+
+    public void setGames(int games) {
+        this.games = games;
     }
 }
