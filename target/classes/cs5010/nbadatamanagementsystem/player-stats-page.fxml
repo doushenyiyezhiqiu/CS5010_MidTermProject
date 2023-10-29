@@ -9,10 +9,22 @@
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs5010.nbadatamanagementsystem.PlayerStatsPageController">
    <children>
       <Button fx:id="backToMainPage" layoutX="445.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#handleBackToMainPageClick" text="Back To Main Page" />
-      <TableView layoutX="200.0" layoutY="74.0" prefHeight="200.0" prefWidth="200.0">
+      <TableView fx:id="playerTable" layoutX="43.0" layoutY="30.0" prefHeight="294.0" prefWidth="520.0">
         <columns>
-          <TableColumn prefWidth="75.0" text="C1" />
-          <TableColumn prefWidth="75.0" text="C2" />
+          <TableColumn fx:id="playerNameColumn" prefWidth="150.0" text="Player Name" />
+          <TableColumn fx:id="positionColumn" prefWidth="75.0" text="Position" />
+            <TableColumn fx:id="ageColumn" prefWidth="75.0" text="Age" />
+            <TableColumn fx:id="teamColumn" prefWidth="75.0" text="Team" />
+            <TableColumn fx:id="gamesColumn" prefWidth="75.0" text="Games" />
+            <TableColumn fx:id="pointsColumn" prefWidth="75.0" text="Points" />
+            <TableColumn fx:id="reboundsColumn" prefWidth="75.0" text="Rebounds" />
+            <TableColumn fx:id="assistsColumn" prefWidth="75.0" text="Assists" />
+            <TableColumn fx:id="stealsColumn" prefWidth="75.0" text="Steals" />
+            <TableColumn fx:id="blocksColumn" prefWidth="75.0" text="Blocks" />
+            <TableColumn fx:id="fieldGoalPercentageColumn" prefWidth="75.0" text="Field Goal %" />
+            <TableColumn fx:id="twoPointPercentageColumn" prefWidth="75.0" text="2 Point %" />
+            <TableColumn fx:id="threePointPercentageColumn" prefWidth="75.0" text="3 Point %" />
+            <TableColumn fx:id="freeThrowPercentageColumn" prefWidth="75.0" text="Free Throw %" />
         </columns>
       </TableView>
    </children>

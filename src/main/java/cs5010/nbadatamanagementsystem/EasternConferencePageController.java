@@ -49,7 +49,6 @@ public class EasternConferencePageController {
     private void initialize() {
 
         ObservableList<Team> easternTeams = FXCollections.observableList(Teams.getEasternTeams());
-
         easternTable.setItems(easternTeams);
 
         teamNameColumn.setCellValueFactory(new PropertyValueFactory<>("name"));
