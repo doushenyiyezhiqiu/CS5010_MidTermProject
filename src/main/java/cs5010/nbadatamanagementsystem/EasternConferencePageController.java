@@ -24,5 +24,6 @@ public class EasternConferencePageController {
         stage.getIcons().add(image);
 
         stage.show();
+
     }
 }
