@@ -25,6 +25,9 @@ public class MainApplication extends Application {
 
         CsvLoader.loadEasternTeams();
         CsvLoader.loadWesternTeams();
+        CsvLoader.loadPlayers();
+
+        System.out.println(PlayerList.getPlayerList().size());
 
         launch();
     }
