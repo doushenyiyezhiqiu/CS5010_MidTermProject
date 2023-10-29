@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
 <?import javafx.scene.layout.AnchorPane?>
 
 
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs5010.nbadatamanagementsystem.EasternConferencePageController">
    <children>
-      <Button fx:id="backToMainPage" layoutX="460.0" layoutY="316.0" mnemonicParsing="false" onMouseClicked="#handleBackToMainPageClick" text="Back To Main Page" />
+      <Button fx:id="backToMainPage" layoutX="445.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#handleBackToMainPageClick" text="Back To Main Page" />
+      <TableView layoutX="62.0" layoutY="33.0" prefHeight="284.0" prefWidth="500.0">
+        <columns>
+          <TableColumn fx:id="teamColumn" prefWidth="75.0" text="Team" />
+          <TableColumn fx:id="winColumn" prefWidth="75.0" text="Win" />
+            <TableColumn fx:id="loseColumn" prefWidth="75.0" text="Lose" />
+            <TableColumn fx:id="winLosePercentageColumn" prefWidth="75.0" text="W/L%" />
+            <TableColumn fx:id="gameBehindColumn" prefWidth="75.0" text="Game Behind" />
+            <TableColumn fx:id="pointsScorePerGameColumn" prefWidth="75.0" text="Points Score / Game" />
+            <TableColumn fx:id="pointsAllowedPerGameColumn" prefWidth="75.0" text="Points Allowed / Game" />
+            <TableColumn fx:id="simpleRatingSystemColumn" prefWidth="75.0" text="Simple Rating System" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>

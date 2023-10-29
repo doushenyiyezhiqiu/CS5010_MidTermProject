@@ -1,21 +1,19 @@
 package cs5010.nbadatamanagementsystem;
 
-import java.io.IOException;
-import java.io.InputStreamReader;
-
+import java.io.*;
 
 public class CsvLoader {
 
-    public void loadEasternTeams() {
-        try ( reader = new CSVReader(new InputStreamReader(getClass().getResourceAsStream("/data.csv")))) {
+    public static void loadEasternTeams() {
+        InputStream is = CsvLoader.class.getResourceAsStream("Tables/eastern.csv");
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
+            br.readLine();
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] values = line.split(",");
 
-            // Skip the first line (header)
-            reader.readNext();
-
-            String[] nextLine;
-            while ((nextLine = reader.readNext()) != null) {
-                // nextLine[] is an array of values from the current line of the CSV
-                System.out.println(Arrays.toString(nextLine));
+                Team temp = new Team(values[0], Integer.parseInt(values[1]), Integer.parseInt(values[2]), Double.parseDouble(values[3]), Integer.parseInt(values[4]), Double.parseDouble(values[5]), Double.parseDouble(values[6]), Double.parseDouble(values[7]));
+                Teams.getEasternTeams().add(temp);
             }
         } catch (IOException e) {
             e.printStackTrace();

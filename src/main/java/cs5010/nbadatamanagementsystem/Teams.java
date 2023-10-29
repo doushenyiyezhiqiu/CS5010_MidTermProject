@@ -5,13 +5,8 @@ import java.util.List;
 
 public class Teams {
 
-    private static List<Team> easternTeams;
-    private static List<Team> westernTeams;
-
-    public Teams() {
-        easternTeams = new ArrayList<>();
-        westernTeams = new ArrayList<>();
-    }
+    private static List<Team> easternTeams = new ArrayList<>();
+    private static List<Team> westernTeams = new ArrayList<>();
 
     public static List<Team> getEasternTeams() {
         return easternTeams;
