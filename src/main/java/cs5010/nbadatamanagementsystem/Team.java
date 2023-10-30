@@ -1,5 +1,8 @@
 package cs5010.nbadatamanagementsystem;
 
+/**
+ * The file contains the definition of team.
+ */
 public class Team {
 
     private String name;

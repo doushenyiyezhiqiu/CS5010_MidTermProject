@@ -8,6 +8,10 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
+/**
+ * This is the main application which can open the whole application.
+ */
+
 public class MainApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {

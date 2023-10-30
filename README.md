@@ -1,5 +1,7 @@
 Before running the application, you should make sure that you have Java and JavaFX environtment.
 
+This a NBA data management system. You can check NBA team and player statistics in the last season(2022-2023). You can also add or delete player in the player stats as you wish. 
+
 The following is I copyed from chatGPT about how to download JavaFX on IDEA:
 
 To set up a JavaFX environment in IntelliJ IDEA, follow these steps:
