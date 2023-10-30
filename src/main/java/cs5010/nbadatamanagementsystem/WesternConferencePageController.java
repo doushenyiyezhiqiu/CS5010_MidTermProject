@@ -8,6 +8,9 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+/**
+ * This is the controller class of "western-conference-page.fxml".
+ */
 public class WesternConferencePageController implements ConferencePageController {
 
     @FXML

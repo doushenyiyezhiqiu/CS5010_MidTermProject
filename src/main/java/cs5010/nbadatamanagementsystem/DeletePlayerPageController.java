@@ -5,6 +5,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+/**
+ * This is the controller class of "delete-player-page.fxml".
+ */
 public class DeletePlayerPageController {
 
     @FXML

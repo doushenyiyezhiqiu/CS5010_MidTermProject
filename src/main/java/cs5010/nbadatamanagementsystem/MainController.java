@@ -5,6 +5,9 @@ import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+/**
+ * This is the controller class of "main-page.fxml".
+ */
 public class MainController {
     @FXML
     private Button eastern;

@@ -3,6 +3,9 @@ package cs5010.nbadatamanagementsystem;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The file contains eastern and western teams.
+ */
 public class Teams {
 
     private static List<Team> easternTeams = new ArrayList<>();

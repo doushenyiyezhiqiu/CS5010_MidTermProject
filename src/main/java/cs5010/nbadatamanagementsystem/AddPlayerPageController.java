@@ -4,6 +4,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 
+/**
+ * This is the controller class of "add-player-page.fxml".
+ */
 public class AddPlayerPageController {
 
     @FXML

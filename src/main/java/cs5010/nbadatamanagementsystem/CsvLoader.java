@@ -3,6 +3,9 @@ package cs5010.nbadatamanagementsystem;
 import java.io.*;
 import java.util.List;
 
+/**
+ * This class help me to load initial data from .csv files in the resources folder.
+ */
 public class CsvLoader {
 
     public static void loadEasternTeams() {

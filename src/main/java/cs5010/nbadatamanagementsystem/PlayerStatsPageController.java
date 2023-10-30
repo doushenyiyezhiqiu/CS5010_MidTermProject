@@ -13,6 +13,9 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+/**
+ * This is the controller class of "player-stats-page.fxml".
+ */
 public class PlayerStatsPageController {
 
     @FXML

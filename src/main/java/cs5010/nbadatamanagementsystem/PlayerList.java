@@ -3,6 +3,9 @@ package cs5010.nbadatamanagementsystem;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The file has the list of players.
+ */
 public class PlayerList {
 
     private static List<Player> playerList = new ArrayList<>();
