@@ -18,6 +18,8 @@ public class OpenNewWindow {
         Image image = new Image(OpenNewWindow.class.getResourceAsStream("Images/nbaIcon.png"));
         stage.getIcons().add(image);
 
+        stage.setResizable(false);
+
         stage.show();
     }
 }

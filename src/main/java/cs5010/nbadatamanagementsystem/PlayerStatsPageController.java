@@ -143,6 +143,8 @@ public class PlayerStatsPageController {
         Image image = new Image(getClass().getResourceAsStream("Images/nbaIcon.png"));
         newStage.getIcons().add(image);
 
+        newStage.setResizable(false);
+
         // Show the new stage
         newStage.show();
     }

@@ -12,8 +12,5 @@
         <module name="NbaDataManagementSystem" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="NbaDataManagementSystem" target="17" />
-    </bytecodeTargetLevel>
   </component>
 </project>

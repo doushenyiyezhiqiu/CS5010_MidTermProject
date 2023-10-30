@@ -22,6 +22,8 @@ public class MainApplication extends Application {
         Image image = new Image(getClass().getResourceAsStream("Images/nbaIcon.png"));
         stage.getIcons().add(image);
 
+        stage.setResizable(false);
+
         stage.show();
     }
 
