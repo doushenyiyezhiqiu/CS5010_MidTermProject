@@ -14,6 +14,12 @@ public class PlayerStatsPageController {
     private Button backToMainPage;
 
     @FXML
+    private Button addPlayerButton;
+
+    @FXML
+    private Button deletePlayerButton;
+
+    @FXML
     private TableView<Player> playerTable;
 
     @FXML
@@ -110,6 +116,15 @@ public class PlayerStatsPageController {
 
         freeThrowPercentageColumn.setCellValueFactory(new PropertyValueFactory<>("freeThrowPercentage"));
         freeThrowPercentageColumn.setCellFactory(new CenteredCellFactory<>());
+    }
 
+    @FXML
+    private void handleAddPlayerButtonClick() throws Exception {
+        OpenNewWindow.openNewWindowAndClosePreviousWindow(addPlayerButton, "add-player-page.fxml");
+    }
+
+    @FXML
+    private void handleDeletePlayerButtonClick() throws Exception {
+        OpenNewWindow.openNewWindowAndClosePreviousWindow(deletePlayerButton, "delete-player-page.fxml");
     }
 }

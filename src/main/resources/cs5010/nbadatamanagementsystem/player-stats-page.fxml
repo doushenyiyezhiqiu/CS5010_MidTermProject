@@ -27,5 +27,7 @@
             <TableColumn fx:id="freeThrowPercentageColumn" prefWidth="75.0" text="Free Throw %" />
         </columns>
       </TableView>
+      <Button fx:id="addPlayerButton" layoutX="155.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#handleAddPlayerButtonClick" prefHeight="26.0" prefWidth="117.0" text="Add Player" />
+      <Button fx:id="deletePlayerButton" layoutX="300.0" layoutY="341.0" mnemonicParsing="false" onMouseClicked="#handleDeletePlayerButtonClick" prefHeight="26.0" prefWidth="118.0" text="Delete Player" />
    </children>
 </AnchorPane>
