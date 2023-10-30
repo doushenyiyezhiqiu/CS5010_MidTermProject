@@ -8,7 +8,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
-public class EasternConferencePageController {
+public class EasternConferencePageController implements ConferencePageController {
 
     @FXML
     private Button backToMainPage;
@@ -40,13 +40,15 @@ public class EasternConferencePageController {
     @FXML
     private TableColumn<Team, Double> simpleRatingSystemColumn;
 
+    @Override
     @FXML
-    private void handleBackToMainPageClick() throws Exception {
+    public void handleBackToMainPageClick() throws Exception {
         OpenNewWindow.openNewWindowAndClosePreviousWindow(backToMainPage, "main-page.fxml");
     }
 
+    @Override
     @FXML
-    private void initialize() {
+    public void initialize() {
 
         ObservableList<Team> easternTeams = FXCollections.observableList(Teams.getEasternTeams());
         easternTable.setItems(easternTeams);

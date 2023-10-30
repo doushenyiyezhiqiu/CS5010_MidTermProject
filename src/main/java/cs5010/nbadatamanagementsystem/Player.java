@@ -1,5 +1,9 @@
 package cs5010.nbadatamanagementsystem;
 
+/**
+ * The file is the definition of the Player class.
+ */
+
 public class Player {
 
     private String name;
