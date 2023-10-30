@@ -3,10 +3,15 @@ package cs5010.nbadatamanagementsystem;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.Image;
+import javafx.stage.Stage;
 
 public class PlayerStatsPageController {
 
@@ -125,6 +130,17 @@ public class PlayerStatsPageController {
 
     @FXML
     private void handleDeletePlayerButtonClick() throws Exception {
-        OpenNewWindow.openNewWindowAndClosePreviousWindow(deletePlayerButton, "delete-player-page.fxml");
+        Stage newStage = new Stage();
+
+        // Load the FXML for the new window and set it as the scene
+        Parent root = FXMLLoader.load(getClass().getResource("delete-player-page.fxml"));
+        Scene scene = new Scene(root);
+        newStage.setScene(scene);
+
+        Image image = new Image(getClass().getResourceAsStream("Images/nbaIcon.png"));
+        newStage.getIcons().add(image);
+
+        // Show the new stage
+        newStage.show();
     }
 }
