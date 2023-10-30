@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="cs5010.nbadatamanagementsystem.AddPlayerPageController"
-            prefHeight="400.0" prefWidth="600.0">
 
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cs5010.nbadatamanagementsystem.AddPlayerPageController">
+   <children>
+      <TextField fx:id="playerNameText" layoutX="80.0" layoutY="30.0" />
+      <TextField fx:id="ageText" layoutX="80.0" layoutY="80.0" />
+      <TextField fx:id="gamesText" layoutX="80.0" layoutY="130.0" />
+      <TextField fx:id="reboundsText" layoutX="80.0" layoutY="180.0" />
+      <TextField fx:id="stealsText" layoutX="80.0" layoutY="230.0" />
+      <TextField fx:id="positionText" layoutX="300.0" layoutY="30.0" />
+      <TextField fx:id="teamText" layoutX="300.0" layoutY="80.0" />
+      <TextField fx:id="pointsText" layoutX="300.0" layoutY="130.0" />
+      <TextField fx:id="assistsText" layoutX="300.0" layoutY="180.0" />
+      <TextField fx:id="blocksText" layoutX="300.0" layoutY="230.0" />
+      <TextField fx:id="fieldGoalPercentageText" layoutX="80.0" layoutY="280.0" />
+      <TextField fx:id="twoPointPercentageText" layoutX="300.0" layoutY="280.0" />
+      <TextField fx:id="threePointPercentageText" layoutX="80.0" layoutY="330.0" />
+      <TextField fx:id="freeThrowPercentageText" layoutX="300.0" layoutY="330.0" />
+      <Button fx:id="addPlayerButton" layoutX="375.0" layoutY="360.0" mnemonicParsing="false" onMouseClicked="#handleAddPlayerClick" text="Add Player" />
+      <Label layoutX="80.0" layoutY="10.0" text="Player Name:" />
+      <Label layoutX="300.0" layoutY="10.0" text="Position:" />
+      <Label layoutX="80.0" layoutY="60.0" text="Age:" />
+      <Label layoutX="300.0" layoutY="60.0" text="Team:" />
+      <Label layoutX="80.0" layoutY="110.0" text="Games:" />
+      <Label layoutX="300.0" layoutY="110.0" text="Points:" />
+      <Label layoutX="80.0" layoutY="160.0" text="Rebounds:" />
+      <Label layoutX="300.0" layoutY="160.0" text="Assists:" />
+      <Label layoutX="80.0" layoutY="210.0" text="Steals:" />
+      <Label layoutX="300.0" layoutY="210.0" text="Blocks:" />
+      <Label layoutX="80.0" layoutY="260.0" text="Field Goal %:" />
+      <Label layoutX="300.0" layoutY="260.0" text="Two Point %:" />
+      <Label layoutX="80.0" layoutY="310.0" text="Three Point %:" />
+      <Label layoutX="300.0" layoutY="310.0" text="Free Throw %:" />
+   </children>
 </AnchorPane>
