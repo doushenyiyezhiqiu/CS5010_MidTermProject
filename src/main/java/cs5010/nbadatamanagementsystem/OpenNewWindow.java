@@ -7,6 +7,10 @@ import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
+/**
+ * Envelop one "always used" function - close one window and open a new one into a global class so that each controller
+ * class can use the method.
+ */
 public class OpenNewWindow {
 
     public static void openNewWindowAndClosePreviousWindow(Button button, String fileName) throws Exception {
