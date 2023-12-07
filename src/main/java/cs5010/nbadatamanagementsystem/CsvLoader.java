@@ -18,7 +18,7 @@ public class CsvLoader {
 
     private static void loadTeamCsvFile(String fileName, List<Team> containers) {
         InputStream is = CsvLoader.class.getResourceAsStream(fileName);
-        try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
             br.readLine();
             String line;
             while ((line = br.readLine()) != null) {
