@@ -27,4 +27,13 @@ public class PlayerList {
             }
         }
     }
+
+    public static Player getPlayerByName(String playerName) {
+        for (Player player : playerList) {
+            if (player.getName().equals(playerName)) {
+                return player;
+            }
+        }
+        return null;
+    }
 }

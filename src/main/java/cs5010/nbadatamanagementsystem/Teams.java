@@ -26,4 +26,18 @@ public class Teams {
     public static void setWesternTeams(List<Team> westernTeams) {
         Teams.westernTeams = westernTeams;
     }
+
+    public static Team getTeamByName(String teamName) {
+        for(Team team : easternTeams) {
+            if(team.getName().equals(teamName)) {
+                return team;
+            }
+        }
+        for(Team team : westernTeams) {
+            if(team.getName().equals(teamName)) {
+                return team;
+            }
+        }
+        return null;
+    }
 }

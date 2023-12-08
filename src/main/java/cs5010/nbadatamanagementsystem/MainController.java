@@ -22,6 +22,12 @@ public class MainController {
     private ImageView nbaImage;
 
     @FXML
+    private Button comparePlayerButton;
+
+    @FXML
+    private Button compareTeamButton;
+
+    @FXML
     private void handleEasternClick() throws Exception {
         OpenNewWindow.openNewWindowAndClosePreviousWindow(eastern, "eastern-conference-page.fxml");
     }
@@ -40,6 +46,16 @@ public class MainController {
     @FXML
     private void handlePlayerStatsButtonClick() throws Exception {
         OpenNewWindow.openNewWindowAndClosePreviousWindow(playerStatsButton, "player-stats-page.fxml");
+    }
+
+    @FXML
+    private void handleCompareTeamButtonClick() throws Exception {
+        OpenNewWindow.openNewWindowAndClosePreviousWindow(compareTeamButton, "compare-team-page.fxml");
+    }
+
+    @FXML
+    private void handleCompareplayerButtonClick() throws Exception {
+        OpenNewWindow.openNewWindowAndClosePreviousWindow(comparePlayerButton, "compare-player-page.fxml");
     }
 }
 

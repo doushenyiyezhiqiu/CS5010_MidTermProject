@@ -5,10 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="783cc3e2-be96-4565-8c51-d6bbe67635bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparePlayerPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CompareTeamPageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/compare-player-page.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/compare-team-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CsvLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CsvLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/OpenNewWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/OpenNewWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/PlayerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/PlayerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Teams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/main-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/PlayerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/PlayerList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/Teams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/Teams.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/main-page.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -36,21 +48,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Liangshe Li/Documents/NEU_CS_Files/CS5010-ProgrammingDesignParadigm/NbaDataManagementSystem&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Liangshe Li/Documents/NEU_CS_Files/CS5010-ProgrammingDesignParadigm/NbaDataManagementSystem",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.JavaFX",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +80,8 @@
       <workItem from="1699552626326" duration="3264000" />
       <workItem from="1699570171748" duration="687000" />
       <workItem from="1700701103299" duration="670000" />
-      <workItem from="1701882962376" duration="10556000" />
+      <workItem from="1701882962376" duration="11901000" />
+      <workItem from="1701999357429" duration="7384000" />
     </task>
     <servers />
   </component>
