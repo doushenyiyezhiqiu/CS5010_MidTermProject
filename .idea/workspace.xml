@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="783cc3e2-be96-4565-8c51-d6bbe67635bf" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparePlayerPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparePlayerPageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/compare-player-page.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoadmapAndNextSteps.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RoadmapAndNextSteps.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CenteredCellFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CenteredCellFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ConferencePageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ConferencePageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CsvLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CsvLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/OpenNewWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/OpenNewWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/PlayerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/PlayerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Teams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +86,7 @@
       <workItem from="1701999357429" duration="7384000" />
       <workItem from="1702012870152" duration="315000" />
       <workItem from="1702093307839" duration="232000" />
-      <workItem from="1702093579757" duration="370000" />
+      <workItem from="1702093579757" duration="2944000" />
     </task>
     <servers />
   </component>

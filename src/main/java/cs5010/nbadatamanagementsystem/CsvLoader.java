@@ -4,18 +4,33 @@ import java.io.*;
 import java.util.List;
 
 /**
- * This class help me to load initial data from .csv files in the resources folder.
+ * This class is responsible for loading initial data from .csv files located in the resources folder.
+ * It provides methods to load data for Eastern and Western NBA teams, as well as NBA players, into their respective lists.
  */
 public class CsvLoader {
 
+    /**
+     * Loads data for Eastern conference teams from a CSV file.
+     * Populates the list of Eastern conference teams in the Teams class.
+     */
     public static void loadEasternTeams() {
         loadTeamCsvFile("Tables/eastern.csv", Teams.getEasternTeams());
     }
 
+    /**
+     * Loads data for Western conference teams from a CSV file.
+     * Populates the list of Western conference teams in the Teams class.
+     */
     public static void loadWesternTeams() {
         loadTeamCsvFile("Tables/western.csv", Teams.getWesternTeams());
     }
 
+    /**
+     * A helper method to load team data from a specified CSV file and populate a given list of Team objects.
+     *
+     * @param fileName The name of the CSV file to be loaded.
+     * @param containers The list of Team objects to be populated with the data.
+     */
     private static void loadTeamCsvFile(String fileName, List<Team> containers) {
         InputStream is = CsvLoader.class.getResourceAsStream(fileName);
             try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
@@ -32,6 +47,10 @@ public class CsvLoader {
         }
     }
 
+    /**
+     * Loads data for NBA players from a CSV file.
+     * Populates the list of players in the PlayerList class.
+     */
     public static void loadPlayers() {
         InputStream is = CsvLoader.class.getResourceAsStream("Tables/player.csv");
         try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {

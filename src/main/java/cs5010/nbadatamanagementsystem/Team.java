@@ -1,7 +1,9 @@
 package cs5010.nbadatamanagementsystem;
 
 /**
- * The file contains the definition of team.
+ * Represents a team in the NBA, containing various statistics and details
+ * such as name, wins, losses, win-loss percentage, games behind, points scored per game,
+ * points allowed per game, and a simple rating system value.
  */
 public class Team {
 
@@ -14,6 +16,18 @@ public class Team {
     private double pointsAllowedPerGame;
     private double simpleRatingSystem;
 
+    /**
+     * Constructs a new Team with specified details and statistics.
+     *
+     * @param name                The team's name.
+     * @param win                 The number of wins.
+     * @param lose                The number of losses.
+     * @param winLosePercentage   The win-loss percentage.
+     * @param gameBehind          The number of games behind the leader.
+     * @param pointsScoredPerGame The average points scored per game.
+     * @param pointsAllowedPerGame The average points allowed per game.
+     * @param simpleRatingSystem  The team's rating in the simple rating system.
+     */
     public Team(String name, int win, int lose, double winLosePercentage, int gameBehind, double pointsScoredPerGame, double pointsAllowedPerGame, double simpleRatingSystem) {
         this.name = name;
         this.win = win;

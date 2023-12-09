@@ -1,7 +1,8 @@
 package cs5010.nbadatamanagementsystem;
 
 /**
- * The file is the definition of the Player class.
+ * Represents a player in the NBA. This class stores various statistics and personal details
+ * of an NBA player, such as their name, position, age, team, and performance metrics.
  */
 
 public class Player {
@@ -21,6 +22,24 @@ public class Player {
     private double threePointPercentage;
     private double freeThrowPercentage;
 
+    /**
+     * Constructs a new Player with the specified details and statistics.
+     *
+     * @param name                 The player's name.
+     * @param position             The player's position on the team.
+     * @param age                  The player's age.
+     * @param team                 The name of the team the player belongs to.
+     * @param games                The number of games played.
+     * @param points               The average points scored per game.
+     * @param rebounds             The average number of rebounds per game.
+     * @param assists              The average number of assists per game.
+     * @param steals               The average number of steals per game.
+     * @param blocks               The average number of blocks per game.
+     * @param fieldGoalPercentage  The player's field goal percentage.
+     * @param twoPointPercentage   The player's two-point field goal percentage.
+     * @param threePointPercentage The player's three-point field goal percentage.
+     * @param freeThrowPercentage  The player's free throw percentage.
+     */
     public Player(String name, String position, int age, String team, int games, double points, double rebounds, double assists, double steals, double blocks, double fieldGoalPercentage, double twoPointPercentage, double threePointPercentage, double freeThrowPercentage) {
         this.name = name;
         this.position = position;
