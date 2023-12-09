@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="783cc3e2-be96-4565-8c51-d6bbe67635bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparePlayerPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/CompareTeamPageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/compare-player-page.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/compare-team-page.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparisonModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/PlayerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/PlayerList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/Teams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/main-page.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/PlayerList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/PlayerList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/Teams.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/Teams.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/main-page.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cs5010/nbadatamanagementsystem/main-page.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparePlayerPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs5010/nbadatamanagementsystem/ComparePlayerPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/cs5010/nbadatamanagementsystem/compare-player-page.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +43,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Liangshe Li/Documents/NEU_CS_Files/CS5010-ProgrammingDesignParadigm/NbaDataManagementSystem",
+    "last_opened_file_path": "C:/Users/Liangshe Li/Documents/NEU_CS_Files/CS5010-ProgrammingDesignParadigm/NbaDataManagementSystem/src/main/resources/cs5010/nbadatamanagementsystem",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,6 +52,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Liangshe Li\Documents\NEU_CS_Files\CS5010-ProgrammingDesignParadigm\NbaDataManagementSystem\src\main\resources\cs5010\nbadatamanagementsystem" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -82,6 +75,9 @@
       <workItem from="1700701103299" duration="670000" />
       <workItem from="1701882962376" duration="11901000" />
       <workItem from="1701999357429" duration="7384000" />
+      <workItem from="1702012870152" duration="315000" />
+      <workItem from="1702093307839" duration="232000" />
+      <workItem from="1702093579757" duration="370000" />
     </task>
     <servers />
   </component>
