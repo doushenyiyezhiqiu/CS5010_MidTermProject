@@ -2,7 +2,6 @@ import cs5010.nbadatamanagementsystem.Team;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-
 public class TestTeamGetterMethod {
 
     @Test
